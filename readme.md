@@ -12,3 +12,5 @@ I built a component with [Riot.js](https://muut.com/riotjs/) (react clone) that 
 This is all heavily inspired by this blog post by [Addy Osmani on web-component library interoperability](http://addyosmani.com/blog/component-interop-with-react-and-custom-elements/).
 
 The problem with this repo is outlined in this issue here [PixelsCommander/ReactiveElements#16](https://github.com/PixelsCommander/ReactiveElements/issues/16). I used this [react timer](https://github.com/uken/react-countdown-timer) and ideally. I would be able to just make it a web component with reactive components but I can't. 
+
+I can't used the native version of [PixelsCommander/ReactiveElements](https://github.com/PixelsCommander/ReactiveElements/issues) because it doesn't support any module system and just assumes that the `React` global is set. [Webpack](http://webpack.github.io/) is also the only module-loader I could get to easily ignore defining `window.document` with es6, I tried [SystemJs](https://github.com/systemjs/systemjs) and [Browserify](http://browserify.org/). 
