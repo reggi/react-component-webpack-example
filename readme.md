@@ -7,7 +7,9 @@ This repo is an example of using ES6 modules to load a web component build with 
 <blockquote class="twitter-tweet" lang="en"><p>There is something really sweet about having <a href="https://twitter.com/hashtag/webcomponents?src=hash">#webcomponents</a> as a pure <a href="https://twitter.com/hashtag/javascript?src=hash">#javascript</a> written with <a href="https://twitter.com/hashtag/es6?src=hash">#es6</a> imports and dependancies.</p>&mdash; Thomas Reggi (@thomasreggi) <a href="https://twitter.com/thomasreggi/status/561434558227562496">January 31, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I built a component with [Riot.js](https://muut.com/riotjs/) (react clone) that was a simple countdown timer from a specific date using [Moment](http://momentjs.com/) [riotjs-countdown](https://github.com/reggi/riotjs-countdown).
+I built a component with [Riot.js](https://muut.com/riotjs/) (react clone) that was a simple countdown timer from a specific date using [Moment](http://momentjs.com/) [riotjs-countdown](https://github.com/reggi/riotjs-countdown). Having messed around with react before I thought I'd make the same component with react using ReactiveElements.
+
+ReactiveElements is a way for you to take React code and turn it into a HTML5 Custom Element. 
 
 This is all heavily inspired by this blog post by [Addy Osmani on web-component library interoperability](http://addyosmani.com/blog/component-interop-with-react-and-custom-elements/).
 
