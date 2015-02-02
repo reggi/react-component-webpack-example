@@ -12,3 +12,15 @@ I built a component with [Riot.js](https://muut.com/riotjs/) (react clone) that 
 This is all heavily inspired by this blog post by [Addy Osmani on web-component library interoperability](http://addyosmani.com/blog/component-interop-with-react-and-custom-elements/).
 
 The problem with this repo is outlined in this issue here [PixelsCommander/ReactiveElements#16](https://github.com/PixelsCommander/ReactiveElements/issues/16). I used this [react timer](https://github.com/uken/react-countdown-timer) and ideally. I would be able to just make it a web component with reactive components but I can't. 
+
+To run the site I'm using:
+
+```
+webpack --progress --colors --watch
+```
+
+and 
+
+```
+live-server
+```

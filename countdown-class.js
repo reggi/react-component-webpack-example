@@ -27,7 +27,6 @@ var CountdownTimer = React.createClass({
     tickCallback: React.PropTypes.func,
     completeCallback: React.PropTypes.func
   },
-
   getDefaultProps: function() {
     return {
       interval: 1000,
@@ -121,7 +120,9 @@ var CountdownTimer = React.createClass({
 
     return hours + ':' + minutes + ':' + seconds;
   },
-
+  attributeChanged: function(name, oldValue, newValue) {
+      console.log('Attribute ' + name + ' was changed from ' + oldValue + ' to ' + newValue);
+  },
   render: function() {
     var timeRemaining = this.state.timeRemaining;
 
